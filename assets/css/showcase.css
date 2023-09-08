@@ -50,6 +50,8 @@ header {
   background: #111;
   transition: 0.5s;
   z-index: 2;
+  background: fixed;
+  background-image: url(https://source.unsplash.com/1600x900/?interior-design,);
 }
 
 .showcase.active {
@@ -72,7 +74,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.728);
+  background-color: rgba(0, 0, 0, 0.803);
 }
 
 .text {
