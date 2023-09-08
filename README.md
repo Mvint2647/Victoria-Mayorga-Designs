@@ -28,3 +28,4 @@ Please feel free to email at: <Melissavinny1133@gmail.com>
 <!-- ![VM Interior Designs](assets/pics/vmlogowhite.png) -->
 
 ![VM Interior Designs](assets/pics/homepage.png)
+![VM Interior Designs](assets/pics/vmlogo.png)
