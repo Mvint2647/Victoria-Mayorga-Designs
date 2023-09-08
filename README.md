@@ -5,7 +5,7 @@ Interior Design Showcase Site
 <br>
 
 ## Link to live site
-[*VM Interior Designs*](https://mvint2647.github.io/VMDesigns/)
+<!-- [*VM Interior Designs*](https://mvint2647.github.io//) -->
 <br>
 <br>
 
