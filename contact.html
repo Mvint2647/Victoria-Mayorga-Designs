@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/contact.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,800;1,100&display=swap"
+        rel="stylesheet">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="/assets/pics/vmlogowhite.png">
+</head>
+
+<body>
+
+    <section class="showcase">
+        <header>
+            <img src="vmlogowhite.png" alt="logo for site" width="100" height="95">
+            <div class="toggle"></div>
+        </header>
+
+        <div class="box">
+            <h3> Contact </h3>
+            <img src="contactinfo.png" alt="contact" width="500" height="400" >
+        </div>
+
+
+        <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="#"></a></li> -->
+        </ul>
+
+        <script>
+            const menuToggle = document.querySelector(".toggle");
+            const showcase = document.querySelector(".showcase");
+
+            menuToggle.addEventListener("click", () => {
+                menuToggle.classList.toggle("active");
+                showcase.classList.toggle("active");
+            }); </script>
+    </div>
+</body>
+
+</html>
