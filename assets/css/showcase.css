@@ -107,6 +107,7 @@ header {
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .text a {
@@ -122,6 +123,7 @@ header {
   color: #111;
   letter-spacing: 2px;
   transition: 0.2s;
+  
 }
 
 .text a:hover {
