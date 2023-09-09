@@ -19,6 +19,11 @@ header {
   align-items: center;
 }
 
+.card{
+width: 50%;
+height:50%;
+}
+
 .toggle {
   position: relative;
   width: 60px;
@@ -47,7 +52,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(95, 95, 95));
   transition: 0.5s;
   z-index: 2;
 }
@@ -72,7 +77,6 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.728);
 }
 
 .text {
@@ -196,7 +200,11 @@ header {
   .text h2 {
     font-size: 3em;
   }
+.card{
+  width:70%;
+  height:70%;
 
+}
   .text h3 {
     font-size: 2em;
   }
